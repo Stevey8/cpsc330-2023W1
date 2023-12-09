@@ -14,6 +14,7 @@ This is the course homepage for CPSC 330: Applied Machine Learning at the Univer
 - Chen Liu (chenliu5@student.ubc.ca)
 - Colleen Rideout (colleenx@student.ubc.ca)
 - Justice Sefas (jsefas@cs.ubc.ca)
+- Kaiyun Gao (gky0722@cs.ubc.ca)
 - Mahsa Zarei (mzarei@chem.ubc.ca)
 - Miranda Chan (mc835@student.ubc.ca)
 - Sparsh Trivedy (sparsh01@student.ubc.ca)
@@ -50,7 +51,7 @@ Usually the homework assignments will be due on Mondays (except next week) and w
 | hw2 | Sept 18, 11:59 pm |   [Github repo](https://github.com/UBC-CS/cpsc330-2023W1/hw/) | [Gradescope](https://www.gradescope.ca/courses/11525)| 
 | hw3 | Oct 02, 11:59 pm |   [Github repo](https://github.com/UBC-CS/cpsc330-2023W1/hw/) | [Gradescope](https://www.gradescope.ca/courses/11525)|  
 | hw4 | Oct 10, 11:59 pm  |   [Github repo](https://github.com/UBC-CS/cpsc330-2023W1/hw/) | [Gradescope](https://www.gradescope.ca/courses/11525)|  
-| **Midterm** | Oct 26 6:00 pm to 7:20 pm  | [Canvas](https://canvas.ubc.ca/courses/123439) | [Canvas](https://canvas.ubc.ca/courses/123439)
+| **Midterm** | Oct 26 6:00 pm to 7:20 pm  | In person on [Canvas](https://canvas.ubc.ca/courses/123439) ESB 1013 + CIRS 1250 | [Canvas](https://canvas.ubc.ca/courses/123439)
 | hw5 | Oct 30, 11:59 pm |   [Github repo](https://github.com/UBC-CS/cpsc330-2023W1/hw/) | [Gradescope](https://www.gradescope.ca/courses/11525)|
 | hw6 | November 13, 11:59 pm |   [Github repo](https://github.com/UBC-CS/cpsc330-2023W1/hw/) | [Gradescope](https://www.gradescope.ca/courses/11525)|  
 | hw7 | November 20, 11:59 pm  |   [Github repo](https://github.com/UBC-CS/cpsc330-2023W1/hw/) | [Gradescope](https://www.gradescope.ca/courses/11525)|  
@@ -80,8 +81,8 @@ We'll be developing lecture notes directly in this repository. So if you check t
 | Sep 28 | Linear models | 📹  Pre-watch: [7.1](https://youtu.be/HXd1U2q4VFA), [7.2](https://youtu.be/56L5z_t22qE), [7.3](https://youtu.be/_OAK5KiGLg0) | less depth |
 | Oct 03 | Hyperparameter optimization, overfitting the validation set | 📹 Pre-watch: [8.1](https://youtu.be/lMWdHZSZMk8), [8.2](https://youtu.be/Z9a9XZ0vQv0) |   different|
 | Oct 05 | Evaluation metrics for classification  | 📹  Reference: [9.2](https://youtu.be/ZCuCErW5lI8), [9.3](https://youtu.be/XkCTUuoH23c),[9.4](https://youtu.be/jHaKRCFb6Qw) | more depth |
-| Oct 10 | No class. Monday classes moved to Tuesday. | | 
-| Oct 12 | Regression metrics |  📹 Pre-watch: [10.1](https://youtu.be/lgGTKLwNgkQ) |   more depth on metrics less depth on regression|
+| Oct 10 | Regression metrics |  📹 Pre-watch: [10.1](https://youtu.be/lgGTKLwNgkQ) |   more depth on metrics less depth on regression|
+| Oct 12 | No class. Monday classes moved to Thursday. | | 
 | Oct 17 | Ensembles|  📹 Pre-watch: [11.1](https://youtu.be/8litm1H7DLo), [11.2](https://youtu.be/EkFkY9QB2Hw) | similar |
 | Oct 19 | Feature importances, model interpretation | 📹 Pre-watch: [12.1](https://youtu.be/xfICsGL7DXE),[12.2](https://youtu.be/tiSN18OmZOo)| feature importances is new, feature engineering is new |
 | Oct 24 |   Feature engineering and feature selection | None | less depth |
@@ -90,14 +91,15 @@ We'll be developing lecture notes directly in this repository. So if you check t
 | Oct 31 |   Clustering |  📹 Pre-watch: [14.1](https://youtu.be/caAuUAXwpb8), [14.2](https://youtu.be/s6AvSZ1_l7I), [14.3](https://youtu.be/M5ilrhcL0oY)  | less depth |
 | Nov 02 |   More clustering |  📹 Pre-watch: [15.1](https://youtu.be/1ZwITQyWpkY), [15.2](https://youtu.be/T4NLsrUaRtg), [15.3](https://youtu.be/NM8lFKFZ2IU)   | less depth |
 | Nov 07 |   Simple recommender systems | | less depth ||
+| Nov 09 |   Text data, embeddings, topic modeling  | 📹 Pre-watch: [16.1](https://youtu.be/GTC_iLPCjdY), [16.2](https://youtu.be/7W5Q8gzNPBc)  |   new |
 | Nov 14 | _Midterm break - no class_  |  |
-| Nov 16 |  Text data, embeddings, topic modeling  | 📹 Pre-watch: [16.1](https://youtu.be/GTC_iLPCjdY), [16.2](https://youtu.be/7W5Q8gzNPBc)  |   new |
-| Nov 21 | Neural networks and computer vision | |   less depth |
-| Nov 23 | Time series data | (Optional) [Humour: The Problem with Time & Timezones](https://www.youtube.com/watch?v=-5wpm-gesOY) | new |
-| Nov 28 | Survival analysis | 📹 (Optional but highly recommended)[Calling Bullshit 4.1: Right Censoring](https://www.youtube.com/watch?v=ITWQ5psx9Sw)|   new |
+| Nov 16 | Neural networks and computer vision | |   less depth |
+| Nov 21 | Time series data | (Optional) [Humour: The Problem with Time & Timezones](https://www.youtube.com/watch?v=-5wpm-gesOY) | new |
+| Nov 23 | Survival analysis | 📹 (Optional but highly recommended)[Calling Bullshit 4.1: Right Censoring](https://www.youtube.com/watch?v=ITWQ5psx9Sw)|   new |
+| Nov 28 | Communication | 📹 (Optional but highly recommended) <li>[Calling BS videos](https://www.youtube.com/playlist?list=PLPnZfvKID1Sje5jWxt-4CSZD7bUI4gSPS) Chapter 6 (6 short videos, 47 min total)</li> <li>[Can you read graphs? Because I can't.](https://www.youtube.com/watch?v=vbDObzI-CTc) by Sabrina (7 min)</li> |   new |
 | Nov 30  |  Ethics |   📹 (Optional but highly recommended) <li>[Calling BS videos](https://www.youtube.com/playlist?list=PLPnZfvKID1Sje5jWxt-4CSZD7bUI4gSPS) Chapter 5 (6 short videos, 50 min total)</li> <li>[The ethics of data science](http://jtleek.com/ads2020/week-15.html)</li>| new |
-| Dec 05 | Communication | 📹 (Optional but highly recommended) <li>[Calling BS videos](https://www.youtube.com/playlist?list=PLPnZfvKID1Sje5jWxt-4CSZD7bUI4gSPS) Chapter 6 (6 short videos, 47 min total)</li> <li>[Can you read graphs? Because I can't.](https://www.youtube.com/watch?v=vbDObzI-CTc) by Sabrina (7 min)</li> |   new |
-| Dec 07 | Model deployment and conclusion |  |  new |
+| Dec 05 | Model deployment and conclusion |  |  new |
+| Dec 07 | (Optional but fun) LLMs/Bayesian modeling |  |   new |
 
 
 ### [Covid Safety at UBC](https://srs.ubc.ca/covid-19/ubc-campus-rules-guidance-documents/#COVID-19%20Campus%20Rules)
